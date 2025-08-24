@@ -1,0 +1,39 @@
+# =========================
+# IDEs
+# =========================
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VSCode (por si lo usas a futuro)
+.vscode/
+
+# =========================
+# Node / JavaScript
+# =========================
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# =========================
+# Build / Dist
+# =========================
+dist/
+build/
+*.log
+
+# =========================
+# SO / Archivos temporales
+# =========================
+.DS_Store         # MacOS
+Thumbs.db         # Windows
+*.swp             # Archivos swap (Vim)
+*.tmp             # Temporales
+
+# =========================
+# Otros
+# =========================
+.env              # Variables de entorno
